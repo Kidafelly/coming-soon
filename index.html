@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>Jubek Networks - We Are Coming Soon</title>
+    <title>Jubek Networks - Powering Tomorrow's Connectivity</title>
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -180,7 +180,7 @@
 
         .hero-title {
             text-align: center;
-            margin-bottom: 80px;
+            margin-bottom: 50px;
         }
 
         .hero-title h1 {
@@ -197,13 +197,13 @@
         .hero-subtitle {
             font-size: 1.2rem;
             color: rgba(255, 255, 255, 0.7);
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
         }
 
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 30px;
             margin-bottom: 60px;
         }
@@ -212,7 +212,7 @@
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
-            padding: 40px 30px;
+            padding: 35px 25px;
             text-align: center;
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
@@ -239,7 +239,7 @@
         }
 
         .service-card h3 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             font-weight: 600;
             margin-bottom: 15px;
             color: #ffffff;
@@ -248,6 +248,56 @@
         .service-card p {
             color: rgba(255, 255, 255, 0.7);
             line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .testimonials-section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 50px 30px;
+            margin: 40px 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .testimonials-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 40px;
+            color: #ffffff;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-3px);
+        }
+
+        .testimonial-text {
+            color: rgba(255, 255, 255, 0.8);
+            font-style: italic;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .testimonial-author {
+            color: #3b82f6;
+            font-weight: 500;
+            font-size: 0.9rem;
         }
 
         .social-section {
@@ -290,45 +340,74 @@
             transform: translateY(-2px);
         }
 
-        .countdown-section {
-            text-align: center;
+        .contact-section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px 30px;
             margin: 40px 0;
+            text-align: center;
         }
 
-        .countdown-title {
-            font-size: 1.1rem;
-            color: rgba(255, 255, 255, 0.7);
+        .contact-title {
+            font-size: 1.8rem;
+            font-weight: 600;
             margin-bottom: 20px;
+            color: #ffffff;
         }
 
-        .countdown {
+        .contact-subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .contact-buttons {
             display: flex;
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
         }
 
-        .countdown-item {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+        .contact-btn {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: white;
+            padding: 15px 30px;
             border-radius: 12px;
-            padding: 20px;
-            min-width: 80px;
-            backdrop-filter: blur(10px);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
         }
 
-        .countdown-number {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #3b82f6;
-            display: block;
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
         }
 
-        .countdown-label {
+        .contact-btn.secondary {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .footer {
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-text {
+            color: rgba(255, 255, 255, 0.6);
             font-size: 0.9rem;
-            color: rgba(255, 255, 255, 0.7);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+        }
+
+        .brand {
+            color: #3b82f6;
+            font-weight: 600;
         }
 
         @media (max-width: 768px) {
@@ -347,13 +426,19 @@
                 gap: 20px;
             }
 
-            .countdown {
-                gap: 15px;
+            .testimonials-grid {
+                grid-template-columns: 1fr;
             }
 
-            .countdown-item {
-                min-width: 70px;
-                padding: 15px;
+            .contact-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
             }
         }
     </style>
@@ -372,8 +457,8 @@
             <header class="header">
                 <div class="header-content">
                     <div class="header-info">
-                        <span><i class="fas fa-map-marker-alt"></i> Ngara Rd. NBI</span>
-                        <span><i class="fas fa-phone"></i> +254-700-775-553</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</span>
+                        <span><i class="fas fa-phone"></i> +254 758 406 756</span>
                         <span><i class="fas fa-envelope"></i> info@jubek.co.ke</span>
                     </div>
                 </div>
@@ -386,40 +471,99 @@
             <main class="main-content">
                 <div class="container">
                     <div class="hero-title">
-                        <h1>We Are Almost Ready for Launch</h1>
-                        <p class="hero-subtitle">Jubek Networks is preparing to revolutionize your IT infrastructure with cutting-edge solutions</p>
+                        <h1>Powering Tomorrow's Digital World</h1>
+                        <p class="hero-subtitle">Jubek Networks delivers cutting-edge connectivity, security, and energy solutions designed to drive innovation and empower businesses for the digital future</p>
                     </div>
-
-
 
                     <div class="services-grid">
                         <div class="service-card">
                             <div class="service-icon">
-                                <i class="fas fa-network-wired"></i>
+                                <i class="fas fa-wifi"></i>
                             </div>
-                            <h3>Network Monitoring</h3>
-                            <p>Continuously monitoring network systems, servers, routers, and switches for performance issues, outages, or security breaches.</p>
+                            <h3>High-Speed Internet Solutions</h3>
+                            <p>We deliver blazing-fast and dependable internet connectivity tailored for residential and commercial environments. Our advanced infrastructure ensures seamless browsing, streaming, and business operations.</p>
                         </div>
 
                         <div class="service-card">
                             <div class="service-icon">
-                                <i class="fas fa-cogs"></i>
+                                <i class="fas fa-fiber-optic"></i>
                             </div>
-                            <h3>System Maintenance and Updates</h3>
-                            <p>Performing routine maintenance tasks such as firmware upgrades and configuration backups. Ensuring systems are up to date and secure.</p>
+                            <h3>Fiber Optic Networks</h3>
+                            <p>Experience lightning-fast fiber internet with unmatched reliability and speed. Our fiber solutions provide exceptional performance for demanding applications and future-proof your connectivity needs.</p>
                         </div>
 
                         <div class="service-card">
                             <div class="service-icon">
-                                <i class="fas fa-cloud-shield-alt"></i>
+                                <i class="fas fa-video"></i>
                             </div>
-                            <h3>Cloud Security</h3>
-                            <p>Providing security tools and technologies hosted in the cloud to protect data, applications, and systems across cloud environments.</p>
+                            <h3>Security & Surveillance</h3>
+                            <p>Comprehensive CCTV installation and monitoring systems to safeguard your premises. Our advanced security solutions provide round-the-clock protection with cutting-edge surveillance technology.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-solar-panel"></i>
+                            </div>
+                            <h3>Solar Energy Systems</h3>
+                            <p>Harness renewable energy with our professional solar installation services. Reduce energy costs and environmental impact while ensuring reliable power supply for your home or business.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Network Training & Certification</h3>
+                            <p>Comprehensive networking training programs covering industry-standard technologies. Gain expertise in network management and administration through our hands-on professional courses.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-consulting"></i>
+                            </div>
+                            <h3>IT Consulting & Support</h3>
+                            <p>Expert technology consulting and networking solutions customized to your requirements. From network design to implementation, we provide comprehensive IT infrastructure guidance.</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-section">
+                        <h2 class="testimonials-title">What Our Clients Say</h2>
+                        <div class="testimonials-grid">
+                            <div class="testimonial-card">
+                                <p class="testimonial-text">"The internet connectivity from Jubek Networks has been exceptional. Our connection is incredibly reliable and fast, making remote work and entertainment seamless."</p>
+                                <p class="testimonial-author">— Sarah K, Kitengela</p>
+                            </div>
+                            <div class="testimonial-card">
+                                <p class="testimonial-text">"Professional installation of our security and monitoring systems. We now have complete peace of mind knowing our property is well protected."</p>
+                                <p class="testimonial-author">— Elizabeth K, Nairobi</p>
+                            </div>
+                            <div class="testimonial-card">
+                                <p class="testimonial-text">"Outstanding network services! We've experienced significant improvements in speed and reliability since partnering with Jubek Networks."</p>
+                                <p class="testimonial-author">— Brian Wainaina, Kitengela</p>
+                            </div>
+                            <div class="testimonial-card">
+                                <p class="testimonial-text">"The solar installation has dramatically reduced our energy expenses and helped make our operations more environmentally sustainable."</p>
+                                <p class="testimonial-author">— Jeremiah Asanya</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-section">
+                        <h2 class="contact-title">Get Connected Today</h2>
+                        <p class="contact-subtitle">Ready to transform your digital infrastructure? Contact us for a personalized consultation and discover how we can power your success.</p>
+                        <div class="contact-buttons">
+                            <a href="tel:+254758406756" class="contact-btn">
+                                <i class="fas fa-phone"></i>
+                                Call Us Now
+                            </a>
+                            <a href="mailto:info@jubek.co.ke" class="contact-btn secondary">
+                                <i class="fas fa-envelope"></i>
+                                Request Quote
+                            </a>
                         </div>
                     </div>
 
                     <div class="social-section">
-                        <h2 class="social-title">Connect with us</h2>
+                        <h2 class="social-title">Stay Connected</h2>
                         <div class="social-icons">
                             <a href="#" class="social-icon" aria-label="Facebook">
                                 <i class="fab fa-facebook-f"></i>
@@ -441,7 +585,7 @@
             <footer class="footer">
                 <div class="footer-content">
                     <p class="footer-text">
-                        © 2025 <span class="brand">Jubek Networks Solutions</span> 
+                        © 2025 <span class="brand">Jubek Networks Solutions</span> - Empowering Connectivity & Innovation
                     </p>
                 </div>
             </footer>
@@ -466,8 +610,8 @@
                 });
             }, observerOptions);
             
-            // Observe service cards
-            document.querySelectorAll('.service-card').forEach(card => {
+            // Observe all animated elements
+            document.querySelectorAll('.service-card, .testimonial-card').forEach(card => {
                 card.style.opacity = '0';
                 card.style.transform = 'translateY(20px)';
                 card.style.transition = 'all 0.6s ease';
